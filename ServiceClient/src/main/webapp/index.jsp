@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<div data-ng-conntroller="tokenGenerator">
+<div data-ng-controller="tokenGenerator">
 	The token is {{token}}
 </div>
 	<script type="text/javascript">
