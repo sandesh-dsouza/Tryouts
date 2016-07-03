@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Created by FaustineP™ on 1/5/2015.
+ * Created by FaustinePâ„¢ on 1/5/2015.
  */
 public class Main {
 
@@ -53,7 +53,7 @@ public class Main {
         return Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("sandesh.dsouza@gmail.com", "A00d1wta@syd#00");
+                return new PasswordAuthentication("sandesh.dsouza@gmail.com", "oassword");
             }
         });
     }
