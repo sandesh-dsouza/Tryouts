@@ -1,0 +1,55 @@
+@args(){
+com.sample.Student student
+String message
+}
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <style>
+        table {
+            font-family: Segoe UI, Verdana, Arial, helvetica, sans-serif;
+            font-size: 14px;
+            background-color: #FFFFFF;
+        }
+
+        th {
+            margin-left: 5px;
+            margin-right: 5px;
+            text-align: left;
+        }
+
+        td {
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #E5E5E5;
+        }
+    </style>
+</head>
+<body>
+<table style="width:100%">
+    <tr>
+        <th colspan="2" style="color: white" bgcolor="#FF8C00">Student Information</th>
+    </tr>
+
+    <tr>
+        <td>Student ID</td>
+        <td>@student.getId()</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>@student.getName()</td>
+    </tr>
+  <tr>
+        <td>Age</td>
+        <td>@student.getAge</td>
+    </tr>
+    <tr>
+        <td>Course</td>
+        <td>@student.getCourse()</td>
+    </tr>
+</table>
+<br>
+<p style="font-style: italic">@note</p>
+</body>
+</html>
